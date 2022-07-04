@@ -23,6 +23,15 @@ AdventOfCode2021Day02 class >> execute: commands on: submarine [
 
 ]
 
+{ #category : #'class initialization' }
+AdventOfCode2021Day02 class >> initialize [
+
+	Directions := Dictionary newFrom: { 
+			('up' -> [ :submarine :value | submarine up: value ]).
+			('down' -> [ :submarine :value | submarine down: value ]).
+			('forward' -> [ :submarine :value | submarine forward: value ]) }
+]
+
 { #category : #parsing }
 AdventOfCode2021Day02 class >> parseInput: aString [
 
