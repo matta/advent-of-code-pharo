@@ -1,11 +1,11 @@
 Class {
-	#name : #AdventOfCodeDayOne2021Test,
+	#name : #AdventOfCode2021Day01Test,
 	#superclass : #TestCase,
 	#category : #'AdventOfCode2021-Tests'
 }
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> exampleInput [
+AdventOfCode2021Day01Test >> exampleInput [
 
 	^ '199
 200
@@ -20,7 +20,7 @@ AdventOfCodeDayOne2021Test >> exampleInput [
 ]
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> input [
+AdventOfCode2021Day01Test >> input [
 	^ '198
 208
 209
@@ -2025,33 +2025,33 @@ AdventOfCodeDayOne2021Test >> input [
 ]
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> testPartOne [
+AdventOfCode2021Day01Test >> testPartOne [
 
 	| count |
-	count := AdventOfCodeDayOne2021 partOne: self input.
+	count := AdventOfCode2021Day01 partOne: self input.
 	self assert: count equals: 1791
 ]
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> testPartOneExample [
+AdventOfCode2021Day01Test >> testPartOneExample [
 
 	| count |
-	count := AdventOfCodeDayOne2021 partOne: self exampleInput.
+	count := AdventOfCode2021Day01 partOne: self exampleInput.
 	self assert: count equals: 7
 ]
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> testPartTwo [
+AdventOfCode2021Day01Test >> testPartTwo [
 
 	| count |
-	count := AdventOfCodeDayOne2021 partTwo: self input.
+	count := AdventOfCode2021Day01 partTwo: self input.
 	self assert: count equals: 1822
 ]
 
 { #category : #tests }
-AdventOfCodeDayOne2021Test >> testPartTwoExample [
+AdventOfCode2021Day01Test >> testPartTwoExample [
 
 	| count |
-	count := AdventOfCodeDayOne2021 partTwo: self exampleInput.
+	count := AdventOfCode2021Day01 partTwo: self exampleInput.
 	self assert: count equals: 5
 ]

@@ -3,13 +3,13 @@ I represent the soluton to Advent of Code 2021 Day One problem.
 
 "
 Class {
-	#name : #AdventOfCodeDayOne2021,
+	#name : #AdventOfCode2021Day01,
 	#superclass : #Object,
 	#category : #'AdventOfCode2021-Base'
 }
 
 { #category : #computation }
-AdventOfCodeDayOne2021 class >> countAscendingElements: numbers [
+AdventOfCode2021Day01 class >> countAscendingElements: numbers [
 
 	| count |
 	count := 0.
@@ -20,20 +20,20 @@ AdventOfCodeDayOne2021 class >> countAscendingElements: numbers [
 ]
 
 { #category : #computation }
-AdventOfCodeDayOne2021 class >> parsedNumbers: aString [
+AdventOfCode2021Day01 class >> parsedNumbers: aString [
 
 	^ aString lines collect: #asInteger
 ]
 
 { #category : #computation }
-AdventOfCodeDayOne2021 class >> partOne: aString [
+AdventOfCode2021Day01 class >> partOne: aString [
 
 	^ self countAscendingElements: (self parsedNumbers: aString)
 
 ]
 
 { #category : #computation }
-AdventOfCodeDayOne2021 class >> partTwo: aString [
+AdventOfCode2021Day01 class >> partTwo: aString [
 
 	| numbers windows |
 	numbers := self parsedNumbers: aString.
