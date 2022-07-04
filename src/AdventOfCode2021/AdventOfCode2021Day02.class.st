@@ -8,7 +8,7 @@ Class {
 	#classVars : [
 		'Directions'
 	],
-	#category : #'AdventOfCode2021-Base'
+	#category : #'AdventOfCode2021-Day 02'
 }
 
 { #category : #parsing }

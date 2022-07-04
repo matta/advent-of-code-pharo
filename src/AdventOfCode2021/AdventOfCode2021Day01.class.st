@@ -5,7 +5,7 @@ I represent the soluton to Advent of Code 2021 Day One problem.
 Class {
 	#name : #AdventOfCode2021Day01,
 	#superclass : #Object,
-	#category : #'AdventOfCode2021-Base'
+	#category : #'AdventOfCode2021-Day 01'
 }
 
 { #category : #computation }

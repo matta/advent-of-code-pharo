@@ -5,7 +5,7 @@ Class {
 		'submarine',
 		'aim'
 	],
-	#category : #'AdventOfCode2021-Base'
+	#category : #'AdventOfCode2021-Day 02'
 }
 
 { #category : #navigating }

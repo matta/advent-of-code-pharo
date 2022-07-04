@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'position'
 	],
-	#category : #'AdventOfCode2021-Base'
+	#category : #'AdventOfCode2021-Day 02'
 }
 
 { #category : #'as yet unclassified' }
