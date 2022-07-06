@@ -1,5 +1,7 @@
 "
 I represent the soluton to Advent of Code 2021 Day One problem.
+
+Test change 2
 "
 Class {
 	#name : #AdventOfCode2021Day01,
